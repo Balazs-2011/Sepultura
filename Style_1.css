@@ -1,8 +1,35 @@
+body{
+    background-color: black;
+    margin-right: 3%;
+    margin-left: 3%;
+    color: white;
+}
+
+h1,h2{
+    text-decoration: underline;
+}
+
 p{
-    text-align:justify
+    text-align:justify;
+   
 }
 
 .logo{
     margin:auto;
     display:block;
+}
+
+
+.fő_cím{
+    padding-top: 30%;
+}
+
+li{
+    margin-left: 5px ;
+}
+
+.első_kép{
+    background-image: url(images/Kocka.jpg);
+    background-size: cover;
+    
 }
