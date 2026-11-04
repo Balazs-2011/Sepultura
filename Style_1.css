@@ -1,12 +1,13 @@
 body{
-    background-color: black;
     margin-right: 3%;
     margin-left: 3%;
-    color: white;
+    background-color:rgb(101, 25, 17);
+    color: rgb(237, 150, 150)
 }
 
 h1,h2{
     text-decoration: underline;
+    color: lightgreen;
 }
 
 p{
@@ -14,22 +15,53 @@ p{
    
 }
 
-.logo{
+#Logó{
     margin:auto;
     display:block;
+    width: 700px;
 }
 
-
-.fő_cím{
-    padding-top: 30%;
-}
 
 li{
     margin-left: 5px ;
 }
 
-.első_kép{
-    background-image: url(images/Kocka.jpg);
-    background-size: cover;
-    
+ul.menu {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    overflow: auto;
+    color: white;
 }
+
+.menu li{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu li:hover{
+    color: crimson;
+    transform: scale(1.1,1.1
+    );
+}
+
+#eredeti_tagok{
+    float: right;
+    margin: 10px;
+    width: 700px;
+    display: block;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 7px crimson
+}
+
+ .menu a{
+    color: white;
+}
+
+a{
+    color: lightgreen;
+}
+
